@@ -1,0 +1,61 @@
+:root {
+  --color-body: #fff; // variant #f6f9e6 -- ccc7b3
+  --color-text: #3d3947;
+  --color-accent: #57a5a9; // Celadon #ace1af -- Blue #lko
+  --color-grey-light: #efefef;
+  --color-beige-light: #f6f9e6; // f5f4f2
+  --color-beige-dark: #ccc7b3;
+  --color-white: #fff;
+}
+
+// Reset
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 1rem = 10px
+}
+
+body {
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--color-text);
+  background-color: var(--color-body);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+// Font
+@font-face {
+  font-family: 'Barlow';
+  src: url(fonts/Barlow/Barlow-Regular.ttf);
+}
+
+// Headings
+
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding-top: 1rem;
+}

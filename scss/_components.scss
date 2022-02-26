@@ -1,0 +1,137 @@
+// Archive
+.archive {
+  margin-top: 3rem;
+  font-size: 5rem;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.about-photo {
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+// Wavy Waves
+.custom-shape-divider-top-1645455838 {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1645455838 svg {
+  position: relative;
+  display: block;
+  width: calc(167% + 1.3px);
+  height: 90px;
+}
+
+.custom-shape-divider-top-1645455838 .shape-fill {
+  fill: #F8F8F8;
+}
+
+// Back to top on Hover
+.tooltip {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 2rem;
+  font-weight: 300;
+
+  & a {
+    color: var(--color-text);
+    text-decoration: none;
+  }
+
+  & a:hover, a:active {
+    color: var(--color-accent);
+    transition: all 0.3s ease 0s;
+  }
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 10rem;
+  background-color: #ccc;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.4rem 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltip .tooltiptext {
+  width: 120px;
+  bottom: 100%;
+  left: 50%; 
+  margin-left: -60px;
+}
+
+.backtotop {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+// Contact Button
+.contactus {
+  margin-top: 8rem;
+  font-size: 3rem;
+  font-weight: 100;
+  text-align: center;
+
+  & a {
+    color: var(--color-text);
+    text-decoration: underline;
+    text-underline-offset: 2rem;
+  }
+
+  & a:hover, a:active {
+    color: var(--color-accent);
+    transition: all 0.3s ease 0s;
+  }
+}
+
+// Blockquote
+blockquote{
+  width:70%;
+  margin:50px auto;
+  font-size: 2rem;
+  font-style:italic;
+  font-weight: 100;
+  color: #555555;
+  padding:1.2em 30px 1.2em 75px;
+  border-left:8px solid var(--color-accent) ;
+  line-height:1.6;
+  position: relative;
+  background: #f8f8f8;
+}
+
+blockquote::before{
+  font-family:Arial;
+  content: "\201C";
+  color: var(--color-accent);
+  font-size:4em;
+  position: absolute;
+  left: 1rem;
+  top:-1rem;
+}
+
+blockquote::after{
+  content: '';
+}
+
+blockquote span{
+  display:block;
+  color:#333333;
+  font-style: normal;
+  font-weight: 600;
+  margin-top:1rem;
+}
+
