@@ -228,6 +228,12 @@ nav {
     width: 60%;
     margin: 0 auto;
     border-radius: 50%;
+
+    @media only screen and (max-width: 480px) {
+      margin: 0 auto;
+      padding: 0;
+      width: 100%;
+    }
   }
 }
 
