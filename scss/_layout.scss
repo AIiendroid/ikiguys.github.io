@@ -21,8 +21,6 @@ header {
   padding: 1rem;
   margin: 0 auto;
   background-color: #f8f8f8;
-
-  order: 1px solid red;
 }
 
 .logo {
@@ -34,8 +32,6 @@ header {
   font-size: 10rem;
   font-weight: 100;
   text-transform: uppercase;
-
-  order: 1px solid red;
 
     a {
       color: var(--color-text);
@@ -58,15 +54,11 @@ nav {
   font-size: 1.6rem;
 	list-style-type: none; 
 	text-align: center; 
-
-  order: 1px solid blue;
   
   ul li {
     display: inline;
     padding-left: 2rem;
-    padding-right: 2rem;
-    
-    order: 1px solid red;
+    padding-right: 2rem;  
   }
 
   ul li a {
@@ -134,10 +126,9 @@ nav {
     margin-left: 10rem;
     margin-right: 10rem;
   
-    order: 1px solid blue;
-
     @media only screen and (max-width: 480px) {
-      margin: 0;
+      margin-left: 0;
+      margin-right: 0;
       padding-left: 1.6rem;
       padding-right: 1.6rem;
     }  

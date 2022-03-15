@@ -133,7 +133,7 @@ h2 {
 .contactus {
   margin-top: 10rem;
   padding-top: 1rem;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 100;
   text-align: center;
   border-top: 0.1rem solid var(--color-gray-light);
@@ -309,9 +309,6 @@ blockquote span {
   margin-right: auto;
   padding-left: 1.6rem;
   padding-right: 1.6rem;
-  -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1px solid #999;
-          order: 1px solid #999;
 }
 
 header {
@@ -332,9 +329,6 @@ header {
   padding: 1rem;
   margin: 0 auto;
   background-color: #f8f8f8;
-  -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1px solid red;
-          order: 1px solid red;
 }
 
 .logo {
@@ -346,9 +340,6 @@ header {
   font-size: 10rem;
   font-weight: 100;
   text-transform: uppercase;
-  -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1px solid red;
-          order: 1px solid red;
 }
 
 .logo a {
@@ -371,18 +362,12 @@ nav {
   font-size: 1.6rem;
   list-style-type: none;
   text-align: center;
-  -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1px solid blue;
-          order: 1px solid blue;
 }
 
 nav ul li {
   display: inline;
   padding-left: 2rem;
   padding-right: 2rem;
-  -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1px solid red;
-          order: 1px solid red;
 }
 
 nav ul li a {
@@ -450,9 +435,15 @@ nav ul li a:hover {
   margin-top: 2.5rem;
   margin-left: 10rem;
   margin-right: 10rem;
-  -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1px solid blue;
-          order: 1px solid blue;
+}
+
+@media only screen and (max-width: 480px) {
+  .post__content {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+  }
 }
 
 .post__content p {
@@ -541,6 +532,14 @@ nav ul li a:hover {
   width: 60%;
   margin: 0 auto;
   border-radius: 50%;
+}
+
+@media only screen and (max-width: 480px) {
+  .about__photo {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+  }
 }
 
 .pagination {
