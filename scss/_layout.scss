@@ -10,8 +10,6 @@
   margin-right: auto;
   padding-left: 1.6rem;
   padding-right: 1.6rem;
-  
-  order: 1px solid #999;
 }
 
 header {
@@ -95,7 +93,7 @@ nav {
   max-width: 114rem;
   margin: 7rem auto 7rem auto;
   padding-bottom: 5rem;
-  border-bottom: 0.1rem solid var(--color-gray-light);
+  border-bottom: 0.1rem solid var(--color-gray-light);  
 
   &__photo {
     border-radius: 1%;
@@ -137,6 +135,12 @@ nav {
     margin-right: 10rem;
   
     order: 1px solid blue;
+
+    @media only screen and (max-width: 480px) {
+      margin: 0;
+      padding-left: 1.6rem;
+      padding-right: 1.6rem;
+    }  
   
     & p {
       padding-top: 0.5rem;
@@ -234,6 +238,7 @@ nav {
   align-items: center;
   margin-top: 3rem;
   margin-bottom: 5rem;
+
 
   & a {
     font-size: 2rem;
