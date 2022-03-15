@@ -136,7 +136,7 @@ h2 {
   font-size: 4rem;
   font-weight: 100;
   text-align: center;
-  border-top: 0.1rem solid #F8F8F8;
+  border-top: 0.1rem solid var(--color-gray-light);
 }
 
 .contactus a {
@@ -409,9 +409,10 @@ nav ul li a:hover {
   margin: 7rem auto 7rem auto;
   padding-bottom: 5rem;
   border-bottom: 0.1rem solid var(--color-gray-light);
-  -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1px solid orange;
-          order: 1px solid orange;
+}
+
+.post__photo {
+  border-radius: 1%;
 }
 
 .post__date {
@@ -422,9 +423,6 @@ nav ul li a:hover {
   letter-spacing: 0.2rem;
   text-transform: uppercase;
   text-align: center;
-  -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1px solid orange;
-          order: 1px solid orange;
 }
 
 .post__title {
@@ -434,9 +432,6 @@ nav ul li a:hover {
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 1rem;
-  -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1px solid orange;
-          order: 1px solid orange;
 }
 
 .post__title a {
@@ -504,6 +499,11 @@ nav ul li a:hover {
   color: var(--color-accent);
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+}
+
+.archive__year {
+  font-size: 4rem;
+  text-align: center;
 }
 
 .about {
@@ -580,8 +580,5 @@ footer {
   text-align: center;
   text-transform: none;
   background-color: #f8f8f8;
-  -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1px solid red;
-          order: 1px solid red;
 }
 /*# sourceMappingURL=main.css.map */
