@@ -136,7 +136,6 @@ h2 {
   font-size: 3rem;
   font-weight: 100;
   text-align: center;
-  border-top: 0.1rem solid var(--color-gray-light);
 }
 
 .contactus a {
@@ -152,7 +151,7 @@ h2 {
 }
 
 blockquote {
-  width: 70%;
+  width: 80%;
   margin: 50px auto;
   font-size: 2rem;
   font-style: italic;
