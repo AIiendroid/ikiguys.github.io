@@ -19,11 +19,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;800&display=swap" rel="stylesheet">    
 
     <link rel="stylesheet" href="/css/main.css" />
-    <link rel="shortcut icon" type="image/png" href="img/favicon.ico" />
+    <link rel="shortcut icon" type="image/png" href="/img/favicon.ico" />
 
-    <title>• ikiguys / archive •</title>
+    <title>• ikiguys / Under the sun •</title>
   </head>
-  
+
   <body>
     <!-- Colour Stripe-->
     <div class="colorstripe"></div>
@@ -33,8 +33,8 @@
       <div class="logo"><a href="/">ikiguys</a></div>
       <nav>
         <ul>
-          <li><a href="/">blog</a></li>
-          <li><a class="active" href="/archive/">archive</a></li>
+          <li><a class="active" href="/">blog</a></li>
+          <li><a href="/archive/">archive</a></li>
           <li><a href="/about/">about</a></li>
         </ul>
       </nav>
@@ -48,38 +48,42 @@
     </div>
 
     <div class="wrapper">
-      <div class="archive">Archive</div>
-      
       <!-- Blog post -->
       <article class="post">
-        <div class="archive__year">2022</div>
-
-        <h3 class="post__date">15 March 2022</h3>
-        <h1 class="post__title"><a href="/archive/2022/a-week-of-firsts/">A week of firsts</a></h1>
-        <br>
-        <h3 class="post__date">08 March 2022</h3>
-        <h1 class="post__title"><a href="/archive/2022/even-if-and-especially-when/">Even if and especially when</a></h1>
-        <br>
-        <h3 class="post__date">06 January 2022</h3>
-        <h1 class="post__title"><a href="/archive/2022/the-world-is-alive-and-so-it-is-not-perfect/">The world is alive and so it is not perfect</a></h1>
-        <br>
-        
-        <p style="text-align: center;">&mdash;</p>
-
-        <br>
-        <div class="archive__year">2021</div>
-        
         <h3 class="post__date">26 December 2021</h3>
-        <h1 class="post__title"><a href="/archive/2021/under-the-sun/">Under the sun</a></h1>
-        <br>
-        <h3 class="post__date">23 December 2021</h3>
-        <h1 class="post__title"><a href="/archive/2021/meditative-moment/">Meditative moment</a></h1>
-        <br>
-        <h3 class="post__date">22 December 2021</h3>
-        <h1 class="post__title"><a href="/archive/2021/we-float-through-the-market/">We float through the market</a></h1>
-        <br>
+        <h1 class="post__title">Under the sun</h1>
+        <div class="post__content">
 
+          <p>
+            Our skin shines under the sun, ocean water licks our faces with the salty happiness. Time makes a new step: the other water takes salt away, happiness is still on the face.  We love to be under the sun and we love to lay in the shadow. We forgot how to count minutes. We lost the perception of duality. Here and now. See, hear, feel, enjoy. 
+          </p> 
+          
+          <p><img class="post__photo" src="img/DSCF1453.JPG" alt="Under the sun"></p>
+          <p><img class="post__photo" src="img/DSCF1616.JPG" alt="Under the sun"></p>
+
+          <p>&mdash; Dina</p>
+          
+        </div>
       </article>
+
+      <!-- Disqus Comments-->
+      <div id="disqus_thread"></div>
+      <script>
+          (function() { // DON'T EDIT BELOW THIS LINE
+          var d = document, s = d.createElement('script');
+          s.src = 'https://ikiguys.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+          })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+      <!-- Pagination -->
+      <div class="pagination">
+        <a href="/archive/2021/meditative-moment/" class="previous">&larr; Previous Post</a>
+        <a href="/archive/2022/the-world-is-alive-and-so-it-is-not-perfect/" class="next">Next Post &rarr;</a>
+      </div>
+
     </div>
 
     <!-- Wavy Waves -->
@@ -94,6 +98,8 @@
       
       <div class="copyright"><br>&copy; 2022 ikiguys 🦉 🦉 🐺</div>
     </footer>
-
+    
+    <!-- Disqus-->
+    <script id="dsq-count-scr" src="//ikiguys.disqus.com/count.js" async></script>
   </body>
 </html>

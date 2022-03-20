@@ -456,7 +456,7 @@ nav ul li a:hover {
 .post__content a {
   color: var(--color-text);
   text-decoration: underline;
-  text-underline-offset: 0.4rem;
+  text-underline-offset: 0.6rem;
 }
 
 .post__content a:hover,
